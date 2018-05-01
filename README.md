@@ -1,7 +1,7 @@
 # Project 5 — Animation
 For this project, you’ll create a 3-second animation that is based on either your own hand-sketched paper drawings (that you’ll scan into your computer), on modified images of your own, or that is drawn in a digital tool, such as Photoshop or Illustrator.
 
-The source of your animation will be a sprite called `sprite.jpg` and it will be comprised of at least 90 frames; At 30 frames per second, this means your animation will last 3 seconds. These frames **must** be your own; no online images. 
+The source of your animation will be a sprite called `sprite.png` and it will be comprised of at least 90 frames; At 30 frames per second, this means your animation will last 3 seconds. These frames **must** be your own; no online images.
 
 You may create a choppier animation that is longer by using fewer frames per second. You may also opt to create an animation of more than 90 frames.
 
