@@ -1,0 +1,60 @@
+@keyframes row1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1500px 0;
+  }
+}
+@keyframes row2 {
+  0% {
+    background-position: 0 -100px;
+  }
+  100% {
+    background-position: -1500px -100px;
+  }
+}
+@keyframes row3 {
+  0% {
+    background-position: 0 -200px;
+  }
+  100% {
+    background-position: -1500px -200px;
+  }
+}
+@keyframes row4 {
+  0% {
+    background-position: 0 -300px;
+  }
+  100% {
+    background-position: -1500px -300px;
+  }
+}
+@keyframes row5 {
+  0% {
+    background-position: 0 -400px;
+  }
+  100% {
+    background-position: -1500px -400px;
+  }
+}
+@keyframes row6 {
+  0% {
+    background-position: 0 -500;
+  }
+  100% {
+    background-position: -1500 -500;
+  }
+}
+#animation {
+  animation: row1 0.5s steps(15) none,
+  row2 0.5s steps(15) 1s none,
+  row3 0.5s steps(15) 1.5s none,
+  row4 0.5s steps(15) 2s none,
+  row5 0.5s steps(15) 2.5s none,
+  row6 0.5s steps(15) 3s none;
+  width: 100px;
+  height: 100px;
+  background-image: url('../img/Sprite.png');
+  background-repeat: repeat;
+}
